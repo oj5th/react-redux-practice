@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { BrowerRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,7 +17,7 @@ function App() {
           <ul className="App-nav">
             {modules.map(module => ( // with a name, and routes
               <li key={module.name} className={currentTab === module.name ? 'active' : ''}>
-                <Link to={module.routeProps.path} onClick={() = setCurrentTab(module.name)}>{module.name}</Link>
+                <Link to={module.routeProps.path} onClick={() => setCurrentTab(module.name)}>{module.name}</Link>
               </li>
             ))}
           </ul>

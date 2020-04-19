@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Aanlytics = () => (
+const Analytics = () => (
   <div>Analytics Module</div>
 );
 
