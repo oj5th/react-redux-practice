@@ -1,11 +1,3 @@
-import Analytics from './Analytics';
-import Dashborad from './Dashboard';
-import Games from './Games';
-import Users from './Users';
+import routes from './routes'
 
-export default [
-  Dashborad,
-  Analytics,
-  Games,
-  Users
-];
+export default routes;

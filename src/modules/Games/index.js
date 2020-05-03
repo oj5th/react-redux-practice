@@ -1,13 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-const Games = () => (
-  <div>Games Module</div>
-);
-
-export default {
-  routeProps: {
-    path: '/games',
-    component: Games,
-  },
-  name: 'Games'
+class Games extends Component {
+  render() {
+    return (
+      <div>Games Module</div>
+    )
+  }
 }
+
+export default Games;
